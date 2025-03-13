@@ -1,0 +1,117 @@
+/*
+I det här dokumentet hittar du all styling för det här projektet,
+i morgon ska vi lära oss att skriva CSS.
+*/
+
+/* Här är styling som gäller för hela sidan */
+body {
+  font-family: Helvetica, "sans serif";
+  color: #eca8ed;
+  margin: 0;
+}
+
+/* Här finns all styling för knappen */
+
+
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 15px;
+  border-radius: 50%;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Här är styling som gäller för alla rubriker och texter */
+h1 {
+  margin: 20px;
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 200;
+  margin-bottom: 80px;
+  margin-top: 0%;
+}
+
+h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+  color: black;
+}
+
+/* Här är styling för about-me sektionen */
+.about-me {
+  background-color: #ecc5ed;
+  padding: 110px 30px 80px 30px;
+  color: white;
+  text-align: center;
+}
+
+/* Här är styling för bilden som ligger i about-me sektionen */
+.about-me img {
+  width: 180px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.spotify {
+  padding: 30px 80px 100px 80px;
+}
+
+.spotify-iframe {
+  display: flex;
+  justify-content: center;
+
+}
+
+.socials {
+  color: white;
+  text-align: center;
+}
+
+/* Här är styling för greatness sektionen */
+.greatness {
+  padding: 150px 30px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+/* Här är styling för footern på sidan */
+footer {
+  background-color: #ecc5ed;
+  padding: 120px 300px;
+}
